@@ -9,14 +9,17 @@
 /* Begin PBXBuildFile section */
 		54EB4F1D2741228D0041D5C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EB4F1C2741228D0041D5C2 /* AppDelegate.swift */; };
 		54EB4F1F2741228D0041D5C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EB4F1E2741228D0041D5C2 /* SceneDelegate.swift */; };
-		54EB4F212741228D0041D5C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EB4F202741228D0041D5C2 /* ViewController.swift */; };
-		54EB4F242741228D0041D5C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54EB4F222741228D0041D5C2 /* Main.storyboard */; };
 		54EB4F26274122910041D5C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54EB4F25274122910041D5C2 /* Assets.xcassets */; };
-		54EB4F29274122910041D5C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54EB4F27274122910041D5C2 /* LaunchScreen.storyboard */; };
 		54EB4F34274122910041D5C2 /* TransurbanTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EB4F33274122910041D5C2 /* TransurbanTaskTests.swift */; };
 		54EB4F3E274122910041D5C2 /* TransurbanTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EB4F3D274122910041D5C2 /* TransurbanTaskUITests.swift */; };
 		54EB4F40274122910041D5C2 /* TransurbanTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EB4F3F274122910041D5C2 /* TransurbanTaskUITestsLaunchTests.swift */; };
 		54EB4F4F274123970041D5C2 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EB4F4E274123970041D5C2 /* URL.swift */; };
+		54EB4F5B274127F30041D5C2 /* StarshipListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EB4F59274127F30041D5C2 /* StarshipListViewController.swift */; };
+		54EB4F5C274127F30041D5C2 /* StarshipListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54EB4F5A274127F30041D5C2 /* StarshipListViewController.xib */; };
+		54EB4F6127412E120041D5C2 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 54EB4F6027412E120041D5C2 /* Alamofire */; };
+		54EB4F6427412F3A0041D5C2 /* PromiseKit in Frameworks */ = {isa = PBXBuildFile; productRef = 54EB4F6327412F3A0041D5C2 /* PromiseKit */; };
+		54EB4F6627412F7A0041D5C2 /* StarshipApiRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EB4F6527412F7A0041D5C2 /* StarshipApiRepository.swift */; };
+		54EB4F6827412FD00041D5C2 /* StarshipsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EB4F6727412FD00041D5C2 /* StarshipsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +43,7 @@
 		54EB4F192741228D0041D5C2 /* TransurbanTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransurbanTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54EB4F1C2741228D0041D5C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54EB4F1E2741228D0041D5C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		54EB4F202741228D0041D5C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		54EB4F232741228D0041D5C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		54EB4F25274122910041D5C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		54EB4F28274122910041D5C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54EB4F2A274122910041D5C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54EB4F2F274122910041D5C2 /* TransurbanTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransurbanTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54EB4F33274122910041D5C2 /* TransurbanTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransurbanTaskTests.swift; sourceTree = "<group>"; };
@@ -51,6 +51,10 @@
 		54EB4F3D274122910041D5C2 /* TransurbanTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransurbanTaskUITests.swift; sourceTree = "<group>"; };
 		54EB4F3F274122910041D5C2 /* TransurbanTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransurbanTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		54EB4F4E274123970041D5C2 /* URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
+		54EB4F59274127F30041D5C2 /* StarshipListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarshipListViewController.swift; sourceTree = "<group>"; };
+		54EB4F5A274127F30041D5C2 /* StarshipListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StarshipListViewController.xib; sourceTree = "<group>"; };
+		54EB4F6527412F7A0041D5C2 /* StarshipApiRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarshipApiRepository.swift; sourceTree = "<group>"; };
+		54EB4F6727412FD00041D5C2 /* StarshipsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarshipsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54EB4F6127412E120041D5C2 /* Alamofire in Frameworks */,
+				54EB4F6427412F3A0041D5C2 /* PromiseKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,11 +109,9 @@
 			children = (
 				54EB4F1C2741228D0041D5C2 /* AppDelegate.swift */,
 				54EB4F1E2741228D0041D5C2 /* SceneDelegate.swift */,
-				54EB4F202741228D0041D5C2 /* ViewController.swift */,
-				54EB4F222741228D0041D5C2 /* Main.storyboard */,
+				54EB4F512741253B0041D5C2 /* Modules */,
 				54EB4F25274122910041D5C2 /* Assets.xcassets */,
 				54EB4F4C274123970041D5C2 /* Library */,
-				54EB4F27274122910041D5C2 /* LaunchScreen.storyboard */,
 				54EB4F2A274122910041D5C2 /* Info.plist */,
 			);
 			path = TransurbanTask;
@@ -146,6 +150,82 @@
 			path = Constants;
 			sourceTree = "<group>";
 		};
+		54EB4F50274125220041D5C2 /* Starships */ = {
+			isa = PBXGroup;
+			children = (
+				54EB4F52274125820041D5C2 /* StarshipList */,
+				54EB4F56274126250041D5C2 /* StarShipDetails */,
+				54EB4F5D27412CA90041D5C2 /* Model */,
+				54EB4F5E27412CD20041D5C2 /* Repositories */,
+			);
+			path = Starships;
+			sourceTree = "<group>";
+		};
+		54EB4F512741253B0041D5C2 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				54EB4F50274125220041D5C2 /* Starships */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		54EB4F52274125820041D5C2 /* StarshipList */ = {
+			isa = PBXGroup;
+			children = (
+				54EB4F53274125B60041D5C2 /* Cells */,
+				54EB4F54274125DB0041D5C2 /* Views */,
+				54EB4F55274125EB0041D5C2 /* ViewModel */,
+			);
+			path = StarshipList;
+			sourceTree = "<group>";
+		};
+		54EB4F53274125B60041D5C2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		54EB4F54274125DB0041D5C2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				54EB4F59274127F30041D5C2 /* StarshipListViewController.swift */,
+				54EB4F5A274127F30041D5C2 /* StarshipListViewController.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		54EB4F55274125EB0041D5C2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		54EB4F56274126250041D5C2 /* StarShipDetails */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = StarShipDetails;
+			sourceTree = "<group>";
+		};
+		54EB4F5D27412CA90041D5C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				54EB4F6727412FD00041D5C2 /* StarshipsModel.swift */,
+			);
+			name = Model;
+			path = StarShipDetails;
+			sourceTree = "<group>";
+		};
+		54EB4F5E27412CD20041D5C2 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				54EB4F6527412F7A0041D5C2 /* StarshipApiRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -162,6 +242,10 @@
 			dependencies = (
 			);
 			name = TransurbanTask;
+			packageProductDependencies = (
+				54EB4F6027412E120041D5C2 /* Alamofire */,
+				54EB4F6327412F3A0041D5C2 /* PromiseKit */,
+			);
 			productName = TransurbanTask;
 			productReference = 54EB4F192741228D0041D5C2 /* TransurbanTask.app */;
 			productType = "com.apple.product-type.application";
@@ -234,6 +318,10 @@
 				Base,
 			);
 			mainGroup = 54EB4F102741228D0041D5C2;
+			packageReferences = (
+				54EB4F5F27412E120041D5C2 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				54EB4F6227412F3A0041D5C2 /* XCRemoteSwiftPackageReference "PromiseKit" */,
+			);
 			productRefGroup = 54EB4F1A2741228D0041D5C2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -250,9 +338,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54EB4F29274122910041D5C2 /* LaunchScreen.storyboard in Resources */,
+				54EB4F5C274127F30041D5C2 /* StarshipListViewController.xib in Resources */,
 				54EB4F26274122910041D5C2 /* Assets.xcassets in Resources */,
-				54EB4F242741228D0041D5C2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,8 +364,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54EB4F212741228D0041D5C2 /* ViewController.swift in Sources */,
+				54EB4F5B274127F30041D5C2 /* StarshipListViewController.swift in Sources */,
 				54EB4F1D2741228D0041D5C2 /* AppDelegate.swift in Sources */,
+				54EB4F6627412F7A0041D5C2 /* StarshipApiRepository.swift in Sources */,
+				54EB4F6827412FD00041D5C2 /* StarshipsModel.swift in Sources */,
 				54EB4F1F2741228D0041D5C2 /* SceneDelegate.swift in Sources */,
 				54EB4F4F274123970041D5C2 /* URL.swift in Sources */,
 			);
@@ -315,25 +404,6 @@
 			targetProxy = 54EB4F3A274122910041D5C2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		54EB4F222741228D0041D5C2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				54EB4F232741228D0041D5C2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		54EB4F27274122910041D5C2 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				54EB4F28274122910041D5C2 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		54EB4F41274122910041D5C2 /* Debug */ = {
@@ -462,9 +532,9 @@
 				DEVELOPMENT_TEAM = A32VHM5D6N;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TransurbanTask/Info.plist;
+				INFOPLIST_KEY_NSMainNibFile = StarshipListViewController;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -490,9 +560,9 @@
 				DEVELOPMENT_TEAM = A32VHM5D6N;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TransurbanTask/Info.plist;
+				INFOPLIST_KEY_NSMainNibFile = StarshipListViewController;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -644,6 +714,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		54EB4F5F27412E120041D5C2 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		54EB4F6227412F3A0041D5C2 /* XCRemoteSwiftPackageReference "PromiseKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mxcl/PromiseKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		54EB4F6027412E120041D5C2 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 54EB4F5F27412E120041D5C2 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		54EB4F6327412F3A0041D5C2 /* PromiseKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 54EB4F6227412F3A0041D5C2 /* XCRemoteSwiftPackageReference "PromiseKit" */;
+			productName = PromiseKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 54EB4F112741228D0041D5C2 /* Project object */;
 }
