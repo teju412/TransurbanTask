@@ -16,6 +16,7 @@
 		54EB4F34274122910041D5C2 /* TransurbanTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EB4F33274122910041D5C2 /* TransurbanTaskTests.swift */; };
 		54EB4F3E274122910041D5C2 /* TransurbanTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EB4F3D274122910041D5C2 /* TransurbanTaskUITests.swift */; };
 		54EB4F40274122910041D5C2 /* TransurbanTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EB4F3F274122910041D5C2 /* TransurbanTaskUITestsLaunchTests.swift */; };
+		54EB4F4F274123970041D5C2 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EB4F4E274123970041D5C2 /* URL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		54EB4F39274122910041D5C2 /* TransurbanTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransurbanTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54EB4F3D274122910041D5C2 /* TransurbanTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransurbanTaskUITests.swift; sourceTree = "<group>"; };
 		54EB4F3F274122910041D5C2 /* TransurbanTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransurbanTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		54EB4F4E274123970041D5C2 /* URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				54EB4F202741228D0041D5C2 /* ViewController.swift */,
 				54EB4F222741228D0041D5C2 /* Main.storyboard */,
 				54EB4F25274122910041D5C2 /* Assets.xcassets */,
+				54EB4F4C274123970041D5C2 /* Library */,
 				54EB4F27274122910041D5C2 /* LaunchScreen.storyboard */,
 				54EB4F2A274122910041D5C2 /* Info.plist */,
 			);
@@ -125,6 +128,22 @@
 				54EB4F3F274122910041D5C2 /* TransurbanTaskUITestsLaunchTests.swift */,
 			);
 			path = TransurbanTaskUITests;
+			sourceTree = "<group>";
+		};
+		54EB4F4C274123970041D5C2 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				54EB4F4D274123970041D5C2 /* Constants */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		54EB4F4D274123970041D5C2 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				54EB4F4E274123970041D5C2 /* URL.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +280,7 @@
 				54EB4F212741228D0041D5C2 /* ViewController.swift in Sources */,
 				54EB4F1D2741228D0041D5C2 /* AppDelegate.swift in Sources */,
 				54EB4F1F2741228D0041D5C2 /* SceneDelegate.swift in Sources */,
+				54EB4F4F274123970041D5C2 /* URL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
